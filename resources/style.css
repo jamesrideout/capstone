@@ -1,0 +1,308 @@
+/* Global settings */
+
+body {
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+p, aside {
+    font-size: 1.2vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Nav */
+
+#nav {
+    height: 64px;
+    width: 100%; 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.nav-left > h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+#logo {
+ margin-left: 24px;
+}
+
+.logo-text-grey {
+    color: rgb(31, 31, 31);
+}
+
+.logo-text-light {
+    color: rgb(148, 148, 148);
+}
+
+.nav-right {
+    display: flex;
+    margin-right: 24px;
+}
+
+.nav-right > p {
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Learn Section */
+
+.learn-container {
+    display: flex; 
+    background-color: lightgray;
+    width: 100%;
+}
+
+.banner-img {
+    width: 60%;
+    height: 100%;
+    padding: 32px 24px;
+}
+
+
+.learn-content {
+    font-size: 2.5vw;
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.start {
+    color: white;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 10px auto;
+    font-size: 2vw;
+    width: 50%;
+}
+
+/* Practicing */
+
+.practice-container {
+    display: flex;
+}
+
+.practice-left {
+    padding: 32px 24px;
+    width: 60%;
+    height: 100%;
+}
+
+.practice-left > h2 {
+    font-size: 2.5vw;
+}
+
+.practice-img {
+    width: 100%;
+    height: 100%;
+}
+
+.practice-right {
+    height: 100%;
+    padding: 16px 24px;
+    width: 40%;
+    border-left: 0.5px lightgray solid;
+}
+
+.card {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+.card-img-wrapper {
+    width: 35%;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    width: 65%;
+    padding-left: 20px;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content > a {
+    color: rgb(0, 110, 255);
+    font-size: 1.75vw;
+}
+
+.card:last-child {
+    background-color: lightgrey;
+}
+
+/* Start Learning */
+
+.start-learning-container {
+    background-color: lightgrey;
+}
+
+.start-learning-container > h2 {
+    text-align: center;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+}
+
+.learning-box1 {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    background-color: lightgrey;
+    width: auto;
+    display: flex;
+}
+
+.learning-card {
+    width: 33%;
+    height: 100%;
+    background-color: white;
+}
+
+.learning-card > img {
+    height: auto;
+    width: 100%;
+}
+
+.learning-card > h3 {
+    padding-left: 10px;
+}
+
+.learning-card > p {
+    padding-left: 10px;
+}
+
+.mid {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+/* Thesis Exhibit */
+
+#thesis-header {
+    margin: 32px auto;
+    text-align: center;
+}
+
+.thesis-container {
+ display: flex;
+}
+
+.thesis-left {
+    width: 60%; 
+}
+
+.thesis-left > video {
+    width: 100%;
+    height: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.thesis-left > h4 {
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+
+.thesis-left > p {
+    padding-bottom: 32px;
+    margin-left: 24px;
+}
+
+.thesis-right {
+    width: 40%;
+}
+
+.fisma-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.fisma-container > img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.now-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.now-container > img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.now-content {
+    width: 65%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px lightgray solid;
+}
+
+.footer-left > p {
+    margin-left: 24px;
+    margin-top: 12px;
+    font-size: 0.8vw;
+}
+
+.footer-right {
+    display: flex;
+
+}
+
+.footer-right > p {
+    margin-left: 12px;
+    margin-top: 12px;
+    font-size: 0.8vw;
+}
